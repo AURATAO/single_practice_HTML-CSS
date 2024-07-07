@@ -1,0 +1,23 @@
+@import url('./reset.css');
+@import url('./color.css');
+@import url('./component/header.css');
+
+img{
+    display: block;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
