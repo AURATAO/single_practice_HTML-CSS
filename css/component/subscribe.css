@@ -1,0 +1,86 @@
+
+/*subscribe*/
+
+.subscribe{
+    background-image: url('/img/subscribe/subscribe.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: 150%;
+    background-position: center 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.subscribe > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 15px 10% 15px;
+}
+
+
+.subscribe h2{
+    color:#8D8D8D;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.subscribe_input{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+}
+
+.subscribe_input input{
+    width: 100%;
+    background: whitesmoke;
+    cursor: pointer; /*visual cue indicates that the element is clickable*/
+ 
+    padding: 20px;
+    border: 2px solid #916000;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.subscribe_input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38%;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    background:#916000 ;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer; /*visual cue indicates that the element is clickable*/
+    border-radius: 0px 4px 4px 0px;
+    height: 100%;
+}
+
+.subscribe_input:hover > input{
+    border: 2px solid #6C4700;
+}
+
+.subscribe_input:hover > button{
+    background: #6C4700;
+}
+
+.subscribe_input input:focus-visible{
+    outline: 0px;
+    border: 2px solid #6C4700;
+}
+
+@media (width <= 767px){
+    .subscribe{
+        background-size: 250%;
+        background-position: 40% 45%;
+    }
+}

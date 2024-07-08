@@ -1,6 +1,9 @@
 @import url('./reset.css');
+@import url('./font.css');
 @import url('./color.css');
 @import url('./component/header.css');
+@import url('./component/footer.css');
+@import url('./component/subscribe.css');
 
 img{
     display: block;
@@ -16,8 +19,7 @@ a{
     box-sizing: border-box;
 }
 
-
-.wrap{
+.maxWidth{
+    max-width: 1110px;
     width: 100%;
-    margin: 0 auto;
 }
